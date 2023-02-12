@@ -1,0 +1,136 @@
+body {
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  color: #66BFBF;
+  font-size: 562.54%;
+  margin-top: 0;
+  font-family: 'Sacramento', cursive;
+}
+
+h2 {
+
+  font-weight: bold;
+  color: #66BFBF;
+  font-size: 2.5rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+hr{
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  margin: 100px auto;
+  width: 50px;
+}
+
+.top-container {
+  background-color: #CAF7E3;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  display: flex;
+  flex-direction: column;
+  padding-top: 150px;
+  background-color: white;
+}
+
+.profile {
+  background-color: white;
+}
+
+.bottom-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  background-color:#DFDFDE;
+}
+
+.bottom-cloud {
+  position: absolute;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 500px;
+  top: 50px;
+}
+
+.c-img {
+  width: 20%;
+  float: left;
+  margin-right: 30px;
+}
+
+.webdev {
+  width: 20%;
+  float: right;
+  margin-left: 30px;
+}
+
+.proimg {
+  background-color: #CAF7E3;
+}
+
+.skill-row{
+  margin: 100px auto 100px auto;
+  width: 50%;
+  text-align: left;
+}
+
+.skill-row2{
+  margin: 200px auto 100px auto;
+  width: 50%;
+  text-align: left;
+}
+
+.intro{
+  margin:auto;
+  width:30%
+}
+
+.contact-desc{
+  margin-bottom: 100px;
+}
+
+
+.footer-link{
+text-decoration: underline;
+}
+
+
+
+.btn {
+	box-shadow: 0px 1px 0px 0px #f0f7fa;
+	background:linear-gradient(to bottom, #33bdef 5%, #019ad2 100%);
+	background-color:#33bdef;
+	border-radius:6px;
+	border:1px solid #057fd0;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #5b6178;
+}
+.btn:hover {
+	background:linear-gradient(to bottom, #019ad2 5%, #33bdef 100%);
+	background-color:#019ad2;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
